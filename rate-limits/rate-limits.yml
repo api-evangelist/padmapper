@@ -1,0 +1,19 @@
+name: PadMapper Rate Limits
+description: PadMapper does not publish official API rate limits because it does not offer a public API. The platform prohibits automated data collection, crawling, and scraping in its Terms of Service. Any programmatic access to PadMapper's underlying data endpoints is unsanctioned and subject to access termination. Developers seeking rental listing data for integration purposes should use official channels through Zumper's partner programs.
+rateLimits:
+  - name: Web Interface Access
+    description: PadMapper's public web application is accessible via standard browser sessions. There are no published rate limits for human users browsing the platform, but automated requests using bots, scrapers, or scripts are prohibited by the Terms of Service.
+    type: web
+    limit: not-published
+    window: not-published
+    enforcement: Terms of Service restriction; automated access may result in IP blocking or account termination.
+  - name: Automated Access Policy
+    description: PadMapper explicitly prohibits harvesting or collecting data through manual or automated means including crawling, scraping, or spidering any page of the website. This prohibition applies to all programmatic access patterns.
+    type: policy
+    limit: 0
+    window: N/A
+    enforcement: Account termination and access blocking per Terms of Service section on prohibited uses.
+notes:
+  - PadMapper is powered by Zumper and its data infrastructure; rental listing data access for legitimate business integrations should be pursued through Zumper's partner or enterprise channels.
+  - Community-developed reverse-engineered clients (e.g., querying the /api/v1/pins endpoint) operate outside of authorized use and are not recommended for production integrations.
+  - No official SDK, API key system, or rate limit documentation exists as of the catalog date.

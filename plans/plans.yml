@@ -1,0 +1,40 @@
+name: PadMapper Plans
+description: PadMapper does not offer a paid API or tiered developer plan structure. The platform is a consumer-facing rental search service with no official public API. Property managers and landlords can list rentals for free through Zumper (which powers PadMapper) or upgrade to Zumper Pro for enhanced listing syndication, lead management, and marketing tools. PadMapper listings are syndicated automatically when posting through Zumper.
+plans:
+  - name: Free Renter Search
+    description: Free access to PadMapper's rental search interface for renters. Includes map-based browsing, filtering by price, bedrooms, bathrooms, and amenities across US and Canadian cities. No API access is included.
+    url: https://www.padmapper.com
+    price: 0.00
+    currency: USD
+    billing: none
+    features:
+      - Map-based rental search across US and Canada
+      - Real-time filters for price, beds, baths, and amenities
+      - Access to over one million active listings via Zumper network
+      - Mobile apps for iOS and Android
+      - Save searches and favorite listings
+      - Contact landlords directly through the platform
+  - name: Free Landlord Listing
+    description: Property owners and landlords can list rental properties on PadMapper for free by posting through Zumper. Listings are syndicated to both Zumper and PadMapper audiences.
+    url: https://www.zumper.com/manage
+    price: 0.00
+    currency: USD
+    billing: none
+    features:
+      - Free rental listing syndication to PadMapper
+      - Listing appears on Zumper network
+      - Basic renter inquiry management
+      - Available in US and Canada
+  - name: Zumper Pro
+    description: Paid property management plan through Zumper that includes enhanced listing syndication to PadMapper, priority placement, screening tools, and lead management. PadMapper integration is part of the Zumper Pro suite.
+    url: https://www.zumper.com/manage
+    price: 0.00
+    currency: USD
+    billing: monthly
+    features:
+      - Priority listing placement on PadMapper and Zumper
+      - Tenant screening and background checks
+      - Online lease signing
+      - Rent payment collection tools
+      - Lead tracking and management
+      - Listing syndication to additional platforms

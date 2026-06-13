@@ -1,0 +1,27 @@
+name: PadMapper FinOps
+description: PadMapper does not charge renters to use its search platform and does not offer a paid API product. Revenue is generated through landlord and property manager listing upgrades via its parent company Zumper. There are no API usage costs, metered billing, or consumption-based pricing tiers because no public API exists. Organizations seeking commercial access to rental listing data should evaluate Zumper Pro or Zumper enterprise data partnerships.
+costs:
+  - name: Renter Platform Access
+    description: Free for all renters browsing apartment and rental listings on the web or mobile apps. No subscription or usage fees.
+    type: free
+    amount: 0.00
+    currency: USD
+    unit: per user
+  - name: Basic Landlord Listing
+    description: Free for individual landlords and property owners to post rental listings that appear on both PadMapper and Zumper. Zumper account required.
+    type: free
+    amount: 0.00
+    currency: USD
+    unit: per listing
+  - name: Zumper Pro Property Management
+    description: Paid tier through Zumper for property managers needing advanced tools including enhanced listing placement on PadMapper, tenant screening, lease signing, and lead management. Pricing is published on Zumper's management platform.
+    type: subscription
+    amount: variable
+    currency: USD
+    unit: per month
+    url: https://www.zumper.com/manage
+considerations:
+  - PadMapper has no API monetization model; no cost modeling for API usage applies.
+  - Integration costs for property management software connecting to PadMapper through Zumper API credentials typically range from included-in-subscription to $99/month depending on platform tier.
+  - No metered API pricing, no per-call fees, no bandwidth charges — the service is purely web-based with no formal API economy.
+  - Zumper acquired PadMapper; all commercial and financial arrangements are managed under Zumper's brand and pricing structure.
