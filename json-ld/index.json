@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "PadMapper",
+  "description": "PadMapper is a location-based apartment and rental search platform that plots rental listings on an interactive map, enabling renters to search, filter, and discover rental properties across the US and Canada. Powered by Zumper, the platform aggregates over one million active listings with real-time filtering by price, bedrooms, bathrooms, amenities, and neighborhood.",
+  "url": "https://www.padmapper.com",
+  "termsOfService": "https://www.padmapper.com/tos",
+  "documentation": "https://www.padmapper.com/about",
+  "provider": {
+    "@type": "Organization",
+    "name": "PadMapper",
+    "url": "https://www.padmapper.com",
+    "email": "hello@padmapper.com",
+    "sameAs": [
+      "https://x.com/padmapper",
+      "https://www.facebook.com/padmapper/"
+    ]
+  },
+  "applicationCategory": "Real Estate",
+  "keywords": [
+    "Real Estate",
+    "Rental Listings",
+    "Apartment Search",
+    "Map-Based Search",
+    "Housing",
+    "Property Discovery",
+    "Rental Market Data",
+    "Canada",
+    "United States"
+  ],
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.padmapper.com/about"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.padmapper.com/apartments/search"
+  },
+  "softwareVersion": "0.19",
+  "dateCreated": "2026-06-13",
+  "dateModified": "2026-06-13"
+}
