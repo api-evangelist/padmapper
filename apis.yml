@@ -1,6 +1,6 @@
 name: PadMapper
 description: PadMapper is a location-based apartment and rental search platform that plots rental listings on an interactive map, enabling renters to search, filter, and discover rental properties across the US and Canada. Powered by Zumper, the platform aggregates over one million active listings with real-time filtering by price, bedrooms, bathrooms, amenities, and neighborhood. PadMapper does not offer a formal public API; programmatic access to listing data is not officially supported and is prohibited by its Terms of Service.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/padmapper/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -17,7 +17,7 @@ type: Index
 apis:
   - name: PadMapper Rental Listings
     description: PadMapper provides a web-based rental listing search service covering apartments, houses, condos, and rooms for rent across major US and Canadian cities. The platform is powered by Zumper and aggregates listings from multiple sources. There is no official public REST API; all access is through the PadMapper web application and mobile apps. Integrations for property managers are available indirectly through Zumper Pro.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.padmapper.com
     baseURL: https://www.padmapper.com
     tags:
