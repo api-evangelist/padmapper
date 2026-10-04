@@ -34,7 +34,7 @@ created: '2026-06-13'
 modified: '2026-09-16'
 specificationVersion: '0.23'
 tags:
-- Real-Estate
+- Real Estate
 - Rental Listings
 - Apartment Search
 - Map-Based Search
@@ -49,6 +49,7 @@ tags_raw:
 - Housing
 - Property Discovery
 - Rental Market Data
+- Real-Estate
 type: Index
 apis:
 - name: PadMapper Rental Listings
@@ -59,12 +60,11 @@ apis:
     indirectly through Zumper Pro.
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.padmapper.com
-  baseURL: https://www.padmapper.com
   tags:
   - Rental Listings
   - Apartment Search
   - Map Search
-  - Real-Estate
+  - Real Estate
   - Housing
   - Canada
   - United States
@@ -76,6 +76,7 @@ apis:
   - Housing
   - Canada
   - United States
+  - Real-Estate
   properties:
   - type: Documentation
     url: https://www.padmapper.com/about
