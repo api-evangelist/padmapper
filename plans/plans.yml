@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: PadMapper Plans
 description: PadMapper does not offer a paid API or tiered developer plan structure. The platform is a consumer-facing rental search service with no official public API. Property managers and landlords can list rentals for free through Zumper (which powers PadMapper) or upgrade to Zumper Pro for enhanced listing syndication, lead management, and marketing tools. PadMapper listings are syndicated automatically when posting through Zumper.
 plans:
