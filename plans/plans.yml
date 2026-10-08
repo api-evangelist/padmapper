@@ -42,3 +42,28 @@ plans:
       - Rent payment collection tools
       - Lead tracking and management
       - Listing syndication to additional platforms
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units: []
+  plans:
+  - name: Free Renter Search
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Free Landlord Listing
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: Zumper Pro
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
