@@ -64,37 +64,103 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PadMapper is a location-based apartment and rental search platform that plots rental listings on an interactive map, enabling renters to search, filter, and discover rental properties across the US and Canada. Founded in 2010 as a Y Combinator company, PadMapper was acquired by Zumper and is now powered by the Zumper network, aggregating over one million active listings.
+PadMapper is a location-based apartment and rental search platform that plots rental listings on an interactive map, enabling renters to search, filter, and discover rental properties across the US and Canada. Powered by Zumper, the platform aggregates over one million active listings with real-time filtering by price, bedrooms, bathrooms, amenities, and neighborhood. PadMapper does not offer a formal public API; programmatic access to listing data is not officially supported and is prohibited by its Terms of Service.
 
-## Overview
+**Areas:** Real Estate · Rental Listings · Apartment Search · Map-Based Search · Housing · Property Discovery · Rental Market Data
 
-- **Website:** https://www.padmapper.com
-- **Parent Company:** Zumper
-- **Coverage:** United States and Canada (40+ major cities)
-- **Founded:** 2010 (YC Summer 2010)
-- **Type:** Consumer rental search platform
+## PadMapper on APIs.io
 
-## API Status
+Everything profiled for PadMapper is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/padmapper/](https://apis.io/providers/padmapper/)** — or go straight to one of the APIs or properties below.
 
-PadMapper does not offer a formal public API. The platform's Terms of Service explicitly prohibit automated data collection, crawling, scraping, or any programmatic access to its listings data. Property managers seeking integration capabilities should use Zumper Pro, which provides official listing syndication to PadMapper as part of its suite.
+### APIs (1)
 
-## Key Features
+- [PadMapper Rental Listings](https://apis.io/apis/padmapper/padmapper-rental-listings/) — PadMapper provides a web-based rental listing search service covering apartments, houses, condos, and rooms for rent across major US and Canadian cities.…
 
-- Map-based rental search with real-time pan and zoom
-- Filters for price range, bedrooms, bathrooms, and amenities
-- Listings aggregated from Zumper network and partner sources
-- iOS and Android mobile applications
-- Free listing posting for landlords via Zumper
+### Published properties
 
-## Resources
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- [About PadMapper](https://www.padmapper.com/about)
-- [Terms of Service](https://www.padmapper.com/tos)
-- [Privacy Policy](https://www.padmapper.com/privacy)
-- [iOS App](https://apps.apple.com/us/app/padmapper-apartment-finder/id1083663440)
-- [Android App](https://play.google.com/store/apps/details?id=com.padmapper.search)
-- [Zumper Pro (for property managers)](https://www.zumper.com/manage)
+#### Security (1)
 
-## APIs.json Profile
+Authentication, trust centre, and vulnerability disclosure.
 
-This repository contains an [APIs.json 0.19](https://apisjson.org) profile for PadMapper, maintained by [API Evangelist](https://apievangelist.com).
+- [Padmapper Domain Security](https://apis.io/security/padmapper/padmapper-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Plans](https://apis.io/plans/padmapper/plans/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rate Limits](https://apis.io/rate-limits/padmapper/rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Finops](https://apis.io/finops/padmapper/finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://padmapper.com)
+- [Terms of service](https://www.padmapper.com/tos)
+- [Privacy policy](https://www.padmapper.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 11.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 28.9 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/padmapper/](https://apis.io/providers/padmapper/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PadMapper: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/padmapper/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
